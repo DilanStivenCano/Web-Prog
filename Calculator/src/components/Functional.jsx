@@ -1,12 +1,12 @@
 import React from "react";
-import { Btn } from "./BtnComponent";
+import { Button } from "./BtnCompo";
 
-export function Funcional(){
+export function Functional(){
     return(
         <>
         <div>
-            <Btn label='+'/>
-            <Btn label='-'/>
+            <Button label='+'/>
+            <Button label='-'/>
         </div>
         </>
     )

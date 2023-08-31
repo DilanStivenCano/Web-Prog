@@ -1,24 +1,13 @@
 import React from "react";
+import styles from './BtnStyles.css'
 
-export function Btn({label}){
+export function Button({onClick, label}){
 
-  const styleBtn = {
-    fontFamily: 'Helvetica',
-    width: '6rem',
-    margin: '1rem',
-    backgroundColor: 'transparent',
-    fontWeight: 'bold',
-    color: '#444',
-    fontSize: '1rem',
-    padding: '1rem 1.5rem',
-    border: '2px solid #eee',
-    borderRadius: '.5rem',
-    cursor: 'pointer',
-  }
+  const styleButton = styles.add;
 
   return(
     <>
-    <Btn style={styleBtn}>{label}</Btn>
+    <button style={styleButton} onClick={onClick}>{label}</button>
     </>
   )
 }

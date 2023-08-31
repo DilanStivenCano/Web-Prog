@@ -1,12 +1,21 @@
-import React from "react";
-import {Header, Btn, Count, Funcional} from "./components";
+import React, {useState} from "react";
+import {Header, Button, Counter,} from "./components";
 
 export function App(){
+    const [counterValue, setValue] = useState(0);
+
+    function counterNV(algo){
+        const newValue = counterValue + algo;
+        if (newValue >= 0) {
+            setValue(newValue)
+        }
+    }
     return(
         <>
             <Header />
-            <Count value='0'/>
-            <Funcional />
+            <Counter value={counterValue}/>
+            <Button type='substract' label='-' onClick={() => counterNV(-1)}/>
+            <Button type='add' label='+' onClick={() => counterNV(+1)}/>
         </>
     )
 }
