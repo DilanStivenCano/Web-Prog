@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/bootleg-tim-burton');
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.813rem;
+    --font-medium: 500;
+}
+
+.moviecard--body {
+    margin: 3rem;
+}
+
+.main--card {
+    display: flex;
+}
+
+.destac---movie {
+    display: flex;
+}
+
+.logo--page {
+    width: 40rem;
+    height: auto;
+}
+
+.singlecard {
+    color: white;
+}

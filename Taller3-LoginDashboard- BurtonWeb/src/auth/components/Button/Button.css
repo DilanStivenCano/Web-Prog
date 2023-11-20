@@ -1,0 +1,20 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.813rem;
+    --font-medium: 500;
+}
+
+.login--button {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1.2rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: var(--font-medium);
+    color: var(--black-color);
+    background-color: white;
+}

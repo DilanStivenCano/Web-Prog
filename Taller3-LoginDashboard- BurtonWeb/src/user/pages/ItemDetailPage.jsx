@@ -19,19 +19,24 @@ export function ItemDetailPage () {
 
     return (
         <div className="movie-details">
-    <h2 className="movie-title">{title}</h2>
-    <img className="movie-poster"
-        src={`https://image.tmdb.org/t/p/w200${posterPath}`}
-        alt={title}
-        
-    />
-    <p className="movie-info">Genre: {genre_ids}</p>
-    <p className="movie-info">Popularity: {vote_average}</p>
-    <p className="movie-info">Release Date: {release_date}</p>
-    <p className="movie-overview">{overview}</p>
-    <button className="go-back-button" onClick={handleOnClick}>
-        Go back
-    </button>
-</div>
+            <button className="go-back-button" onClick={handleOnClick}>
+                Go back
+            </button>
+            <div class="flex">
+                <img className="movie-poster"
+                    src={`https://image.tmdb.org/t/p/w200${posterPath}`}
+                    alt={title}
+                    
+                />
+                <div class="m-10">
+                <h2 className="movie-title">{title}</h2>
+                <div class="mt-10">
+                    <p className="movie-info">{vote_average}</p>
+                    <p className="movie-info">{release_date}</p>
+                </div>
+                <p className="movie-overview">{overview}</p>
+                </div>
+            </div>
+        </div>
 
 )}

@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/bootleg-tim-burton');
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.813rem;
+    --font-medium: 500;
+}
+
+.menu--nav {
+    width: 100%;
+    background-color: hsla(0, 0%, 36%, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Bootleg Tim Burton', sans-serif;
+    font-size: 2rem;
+    color: white;
+}

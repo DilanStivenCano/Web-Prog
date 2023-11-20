@@ -1,3 +1,3 @@
-export * from './Filter'
-export * from './Header'
-export * from './MovieCard'
+export * from './Filter/Filter'
+export * from './Header/Header'
+export * from './MovieCard/MovieCard'

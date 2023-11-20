@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.813rem;
+  --font-medium: 500;
+}
+
 * {
-  background-color: #2e3d36;
-  color: white;
+  font-family: var(--body-font);
+  max-width: 1400px;
+}
+
+body {
+  background-color: #0f0f0f;
 }
 
 h2 {
