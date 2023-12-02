@@ -1,0 +1,86 @@
+.inputContainer{
+    margin-top: 1rem;
+}
+
+.filterPost{
+    margin-top: 1rem;
+}
+
+.uplodadFileInput{
+    margin-top: 1rem;
+}
+
+.uplodadFileInput input{
+    margin-left: 1rem;
+}
+
+.filterPost select{
+    margin-left: 1rem;
+}
+
+.inputContainer label{
+    color: white;
+}
+
+.inputContainer input {
+    margin-left: 1rem;
+    width: 18vw;
+    border: 2px solid #ED447B;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    color: #FCFAF8;
+    margin-top: 10px;
+}
+
+.filterPost select {
+    width: 20.7vw;
+    border: 2px solid #01B0B5;
+    border-radius: 30px;
+    background-color: #121113;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    color: #FCFAF8;
+    margin-top: 10px;
+}
+
+.filterPost select option {
+    background-color: 121113;
+    color: #ffffff;
+    border: none;
+}
+
+.filterPost label {
+    color: #FCFAF8;
+}
+
+.uplodadFileInput label{
+    color: white;
+}
+
+.uplodadFileInput input{
+    margin-top: 1rem;
+  }
+  
+  .uplodadFileInput input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+  }
+
+  .publishButton{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #00B0B5;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    cursor: pointer;
+  }
+
+  

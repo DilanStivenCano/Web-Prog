@@ -1,0 +1,23 @@
+.workBody {
+    padding: 120px 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.workBody h2 {
+    color: #01B0B5;
+    font-size: 7rem;
+}
+
+.socialWork {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.socialWork img {
+    width: 1.2rem;
+    margin-right: 20px;
+    height: auto;
+    cursor: pointer;
+}

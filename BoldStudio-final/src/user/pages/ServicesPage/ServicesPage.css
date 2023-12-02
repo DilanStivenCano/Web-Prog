@@ -1,0 +1,28 @@
+.serviBody {
+    background-color: rgb(255, 255, 255);
+    padding: 160px 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.serviBody h3 {
+    color: #000;
+}
+
+.servicesType {
+    color: #ED447B;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.servicesContainer img {
+    height: 500px;
+    width: auto;
+}

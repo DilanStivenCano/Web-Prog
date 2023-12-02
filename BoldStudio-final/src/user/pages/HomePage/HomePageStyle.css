@@ -1,0 +1,46 @@
+.BodyHome {
+    width: 100%;
+    padding-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado {
+    margin-left: 12rem;
+}
+
+.logoHome {
+    width: 600px;
+}
+
+.Container {
+    display: flex;
+    height: 100px;
+}
+
+.ComillasHome {
+    color: #ED447B;
+    font-size: 6.2rem;
+    margin-top: 0;
+}
+
+.slogan {
+    color: #B6B5B3;
+    font-weight: 100;
+    font-size: 2.1rem;
+    margin-top: 15px;
+}
+
+.assetHome img {
+    width: auto;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social {
+    margin-top: 10px;
+    padding-left: 5rem;
+}

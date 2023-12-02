@@ -1,0 +1,22 @@
+.valueBody {
+    padding: 160px 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #121113;
+}
+
+.valueBody h2 {
+    font-size: 7rem;
+}
+
+.valuesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.valuesContainer img {
+    width: 150px;
+}

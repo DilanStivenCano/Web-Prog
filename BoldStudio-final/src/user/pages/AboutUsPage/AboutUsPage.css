@@ -1,0 +1,18 @@
+.bodyAbout {
+    padding-top: 160px;
+}
+
+img {
+    width: 1380px;
+}
+
+.aboutText p{
+    margin: 3rem 0 0 7rem;
+}
+
+.socialAbout {
+    width: 90vw;
+    margin: -10px 0;
+    display: flex;
+    justify-content: end;
+}

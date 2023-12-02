@@ -1,0 +1,32 @@
+.contactBody {
+    padding: 160px 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #121113;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contactBody h2 {
+    font-size: 5rem;
+    color: #ED447B;
+}
+
+.socialBig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.socialBig img {
+    width: 50px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.assetImg img {
+    width: auto;
+    height: 500px;
+}

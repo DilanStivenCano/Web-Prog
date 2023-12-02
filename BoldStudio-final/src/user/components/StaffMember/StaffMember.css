@@ -1,0 +1,25 @@
+.staffMember {
+    width: 25vw;
+    padding: 250px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .staffMember h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #121113;
+  }
+  
+  .staffMember:nth-child(2) h3 {
+    color: #ED447B;
+  }
+  
+  .staffMember:nth-child(3) h3 {
+    color: #FFF;
+  }
+
+  .staffMember:nth-child(4) h3 {
+    color: #01B0B5;
+  }

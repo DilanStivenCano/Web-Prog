@@ -1,0 +1,76 @@
+.filterBody {
+    display: flex;
+}
+
+.filterContainer, .filterName, .filterOption {
+    display: flex;
+    flex-direction: column;
+}
+
+.filterContainer {
+    margin-right: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.filterContainer h3 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.filterName, .filterOption {
+    margin-top: 30px;
+}
+
+.filterContainer input {
+    width: 18vw;
+    border: 2px solid #ED447B;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    color: #FCFAF8;
+    margin-top: 10px;
+}
+
+.filterName label{
+    color: #FCFAF8;
+}
+
+.filterContainer select {
+    width: 20.7vw;
+    border: 2px solid #01B0B5;
+    border-radius: 30px;
+    background-color: #121113;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    color: #FCFAF8;
+    margin-top: 10px;
+}
+
+.filterContainer select option {
+    background-color: 121113;
+    color: #FCFAF8;
+    border: none;
+}
+
+.filterOption label {
+    color: #FCFAF8;
+}
+
+.cardBody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.card{
+    margin-right: 1rem;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
